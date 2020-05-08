@@ -4,19 +4,24 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background-image: url(../img/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-header{
-  background-color: #ccc;
-  z-index: 90;
-  padding: 10px;
+.bar{
+  background-color: red;
+  width: 100%;
+  margin: auto, auto;
+  text-align: center;
   position: fixed;
-
+  top: 1px;
+  z-index: 90;
 }
+
+
+/* Non Funziona */
+/* li > *{
+  display: inline-block;
+  background-color: yellow;
+  position: fixed;
+  z-index: 90;
+} */
 
 .lay{
   display: block;
@@ -28,15 +33,10 @@ header{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
 }
 
-.cont0{
-  width: 100vw;
-  height: 100vh;
-  border: 2px solid black;
-  position: relative;
-  margin: 7px;
-  background-image: url(../img/vietnam.jpg);
-  background-size: cover;
-  position: relative;}
+.lay:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
+
+}
 
 .txt0{
   text-align: center;
@@ -50,24 +50,39 @@ header{
   transform: translate(-50%, -50%);
 }
 
+ .cont0{
+  width: 99.2%;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+  margin-top: 40px;
+  background-image: url(../img/vietnam.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  position: relative;}
+
+
 .cont1{
-  width: 100vw;
+  width: 99.2%;
   height: 100vh;
   border: 2px solid black;
   position: relative;
   margin: 7px;
     background-image: url(../img/NY.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
 .cont2{
-  width: 100vw;
+  width: 99.2%;
   height: 100vh;
   border: 2px solid black;
   position: relative;
   margin: 7px;
     background-image: url(../img/redsea.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
 }
