@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+header{
+  background-color: #ccc;
+  z-index: 90;
+  padding: 10px;
+  position: fixed;
+
+}
+
+.lay{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+
+.cont0{
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+  background-image: url(../img/vietnam.jpg);
+  background-size: cover;
+  position: relative;}
+
+.txt0{
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 2px 2px 8px;
+  font-weight: bold;
+  color: #fcba03;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cont1{
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+    background-image: url(../img/NY.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.cont2{
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+    background-image: url(../img/redsea.jpg);
+    background-size: cover;
+    position: relative;
+}
