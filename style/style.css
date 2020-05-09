@@ -7,13 +7,13 @@
 header{
   font-size: 20px;
   font-weight: bold;
-position: fixed;
-z-index: 99;
-text-align: center;
-width: 80%;
-display: block;
-left: 50%;
-transform: translateX(-50%);
+  position: fixed;
+  z-index: 99;
+  text-align: center;
+  width: 80%;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 nav{
@@ -44,17 +44,18 @@ ul{
 
 }
 
-/* Non Funziona */
 ul li{
   font-size: 15px;
   display: inline-block;
   margin: 0 20px;
 }
 
-.container{
-  top: 90px;
+#container{
+  overflow: hidden;
+  padding-bottom: 7px;
   display: block;
   position: relative;
+  top: 90px;
 }
 
 .lay{
@@ -65,12 +66,15 @@ ul li{
   width: 100%;
   height: 100%;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+  opacity: 0.5;
+  transition: all 0.5s ease;
 }
 
 .lay:hover{
+  opacity: 1;
   background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
-
 }
+
 
 .txt0{
   text-align: center;
@@ -86,15 +90,12 @@ ul li{
 
  .cont0{
    display: block;
-  /* width: 99.2%; */
   height: 100vh;
   border: 2px solid black;
   position: relative;
   margin: 0 7px;
-  /* margin-top: 40px; */
   background-image: url(../img/vietnam.jpg);
   background-size: cover;
-  /* background-position: center; */
   position: relative;
 }
 
@@ -114,7 +115,6 @@ ul li{
 
 .cont2{
   display: block;
-  /* width: 99.2%; */
   height: 100vh;
   border: 2px solid black;
   position: relative;
