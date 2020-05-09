@@ -4,26 +4,53 @@
   box-sizing: border-box;
 }
 
-.bar{
-  background-color: red;
-  width: 100%;
-  margin: auto, auto;
-  text-align: center;
-  position: fixed;
-  top: 1px;
-  z-index: 90;
+header{
+  font-size: 20px;
+position: fixed;
+z-index: 99;
+text-align: center;
+width: 80%;
+display: block;
+left: 50%;
+transform: translateX(-50%);
 }
 
+nav{
+  display: block;
+  text-align: center;
+
+}
+
+.bar{
+  border-radius: 15px;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  top: 1px;
+  z-index: 90;
+  display: block;
+  padding: 10px;
+}
+
+ul{
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  background-color: yellow;
+  padding: 10px;
+}
 
 /* Non Funziona */
 ul li{
-
+  font-size: 15px;
   display: inline-block;
-  /* display: block; */
-  /* width: 100%; */
-  background-color: yellow;
-  position: fixed;
-  z-index: 90;
+  margin: 0 20px;
+}
+
+.container{
+  top: 90px;
+  display: block;
+  position: relative;
 }
 
 .lay{
@@ -54,19 +81,22 @@ ul li{
 }
 
  .cont0{
-  width: 99.2%;
+   display: block;
+  /* width: 99.2%; */
   height: 100vh;
   border: 2px solid black;
   position: relative;
-  margin: 7px;
-  margin-top: 40px;
+  margin: 0 7px;
+  /* margin-top: 40px; */
   background-image: url(../img/vietnam.jpg);
   background-size: cover;
   /* background-position: center; */
-  position: relative;}
+  position: relative;
+}
 
 
 .cont1{
+  display: block;
   width: 99.2%;
   height: 100vh;
   border: 2px solid black;
@@ -79,7 +109,8 @@ ul li{
 }
 
 .cont2{
-  width: 99.2%;
+  display: block;
+  /* width: 99.2%; */
   height: 100vh;
   border: 2px solid black;
   position: relative;
