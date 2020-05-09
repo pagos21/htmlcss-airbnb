@@ -16,12 +16,15 @@
 
 
 /* Non Funziona */
-/* li > *{
+ul li{
+
   display: inline-block;
+  /* display: block; */
+  /* width: 100%; */
   background-color: yellow;
   position: fixed;
   z-index: 90;
-} */
+}
 
 .lay{
   display: block;
