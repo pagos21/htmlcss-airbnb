@@ -63,8 +63,8 @@ ul li{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   /* opacity: 0.2; */
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
   /* transition: all 3s ease; */
@@ -92,33 +92,31 @@ ul li{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 3s ease;
+  transition: opacity 3s ease;
   opacity: 0.2;
 }
-
-
 
  .cont0{
    display: block;
   height: 100vh;
   border: 2px solid black;
   position: relative;
-  margin: 0 7px;
+  margin: 7px;
   background-image: url(../img/vietnam.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   position: relative;
 }
 
 
 .cont1{
   display: block;
-  width: 99.2%;
+  /* width: 99.2%; */
   height: 100vh;
   border: 2px solid black;
   position: relative;
   margin: 7px;
     background-image: url(../img/NY.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     position: relative;
 }
@@ -130,7 +128,7 @@ ul li{
   position: relative;
   margin: 7px;
     background-image: url(../img/redsea.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     position: relative;
 }
