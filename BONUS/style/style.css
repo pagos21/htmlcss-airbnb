@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 99;
+  text-align: center;
+  width: 60%;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* nav{
+  display: block;
+
+} */
+
+.bar{
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+  background-color: red;
+  top: 1px;
+  z-index: 90;
+  display: block;
+  padding: 10px;
+}
+
+#plane1{
+  display: block;
+  height: 50%;
+  width: auto;
+  position: absolute;
+  top: 26%;
+}
+
+#plane2{
+  display: block;
+  height: 50%;
+  width: auto;
+  position: absolute;
+  top: 26%;
+  left: 99%;
+  transform: translateX(-100%);
+
+}
+
+ul{
+
+  font-weight: bold;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px;
+  background: rgba(100, 255, 0, 0.5);
+
+}
+
+ul li{
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#container{
+  overflow: hidden;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  top: 90px;
+}
+
+.lay{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* opacity: 0.2; */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+  /* transition: all 3s ease; */
+
+}
+
+.lay:hover{
+  /* opacity: 1; */
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
+  /* background: rgba(255, 0, 0, 0); */
+
+}
+
+.lay:hover .txt0{
+  opacity: 1;
+}
+
+.txt0{
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 2px 2px 8px;
+  font-weight: bold;
+  color: #fcba03;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 3s ease;
+  opacity: 0.2;
+}
+
+ .cont0{
+   display: block;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+  background-image: url(../img/vietnam.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+.cont1{
+  display: block;
+  /* width: 99.2%; */
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+    background-image: url(../img/NY.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cont2{
+  display: block;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  margin: 7px;
+    background-image: url(../img/redsea.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
